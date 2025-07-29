@@ -1,0 +1,50 @@
+*************************************
+SMART-SCHEDULER-LIB HISTORY
+*************************************
+
+1.0.9 (13/03/2024)
+=====================================
+- Limit to execute a scheduled task if it is running is set to 10 times. If the limit is exceeded, an interrupt signal is sent. 
+
+1.0.8 (30/01/2024)
+=====================================
+- Show all versions: Libs and tasks
+
+1.0.7 (29/01/2024)
+=====================================
+- Show application and task versions via API REST
+
+1.0.6 (29/01/2024)
+=====================================
+- Fix invoke methods in AbstractManager
+
+1.0.5 (29/11/2023)
+=====================================
+- Run once scheduled task via swagger
+- Fix error to delete job context
+
+1.0.4 (25/10/2023)
+=====================================
+
+- metro-quito profile (Ocity + Sri (Factura y Nota credito)
+
+1.0.3 (19/09/2023)
+=====================================
+
+- Add AbstractTaskManager abstract manager for single tasks without scheduler
+- Refactor AbstractSchedulerManager and AbstractTaskManager. 
+
+1.0.2 (24/05/2023)
+=====================================
+
+- Fix warnings
+
+1.0.1 (22/05/2023)
+=====================================
+
+- Change the name to identify jobs
+
+1.0.0 (08/05/2023)
+=====================================
+
+- First release
